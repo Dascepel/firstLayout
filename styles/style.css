@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    padding: 34px 84px;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+nav a {
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12rem;
+}
+
+.hero-content,
+.hero-img {
+    flex: 1;
+}
+
+.hero-img img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.hero-content .title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.hero-content .text {
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+.hero-content .sign-up {
+    font-family: 'Inter', sans-serif;
+    color: #F9FAF8;
+    border: none;
+    background-color: #3882F6;
+    padding: 6px 24px;
+    border-radius: 5px;
+}
+
+
+/* information section */
+
+.information {
+    padding: 34px 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information .h3-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.group .card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card .image,
+.card .text {
+    flex: 1;
+}
+
+.card .text {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.group .card img {
+    border-radius: 14px;
+    width: 100%;
+}
+
+/* quote */
+
+.testimonials {
+    background-color: #E5E7EB;
+    padding: 34px 124px;
+}
+
+.testimonial-text p {
+    margin-bottom: 14px;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.testimonial-text h6 {
+    margin-top: 14px;
+    text-align: end;
+    font-size: 14px;
+}
+
+/* action button */
+
+.action {
+    padding: 34px 84px;
+}
+
+.action-box {
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    background-color: #3882F6;
+    border-radius: 1rem;
+}
+
+.action-content h3 {
+    margin-bottom: 5px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.action-content p {
+    margin-top: 0px;
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+.action-box .sign-up {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #F9FAF8;
+    background-color: inherit;
+    padding: 8px 16px;
+    border-radius: 0.25rem;
+    border: 3px solid #F9FAF8;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    padding: 14px 0px;
+    font-size: 14px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+
