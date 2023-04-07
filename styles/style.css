@@ -181,4 +181,14 @@ nav a {
     background-color: #1F2937;
 }
 
+@media screen and (min-width: 1080px) {
+    .hero,
+    .action {
+        padding: 34px 244px;
+    }
 
+    .testimonials,
+    .information {
+        padding: 34px 384px;
+    }
+}
